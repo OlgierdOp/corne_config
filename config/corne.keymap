@@ -35,10 +35,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W                     &kp E      &kp R  &kp T        &kp Y          &kp U  &kp I      &kp O                      &kp P     &trans
-&kp ESC    &kp A  &betterholdandtap LALT S  &kp D      &kp F  &kp G        &kp H          &kp J  &kp K      &betterholdandtap LCTRL L  &kp SEMI  &trans
-&kp LSHFT  &kp Z  &kp X                     &kp C      &kp V  &kp B        &kp N          &kp M  &kp COMMA  &kp DOT                    &kp FSLH  &trans
-                                            &kp LCTRL  &mo 1  &kp SPACE    &kp BACKSPACE  &mo 2  &kp RALT
+&kp TAB    &kp Q  &kp W                     &kp E      &kp R  &kp T        &kp Y          &kp U  &kp I                          &kp O                      &kp P     &trans
+&kp ESC    &kp A  &betterholdandtap LALT S  &kp D      &kp F  &kp G        &kp H          &kp J  &betterholdandtap RIGHT_ALT K  &betterholdandtap LCTRL L  &kp SEMI  &trans
+&kp LSHFT  &kp Z  &kp X                     &kp C      &kp V  &kp B        &kp N          &kp M  &kp COMMA                      &kp DOT                    &kp FSLH  &trans
+                                            &kp LCTRL  &mo 1  &kp SPACE    &kp BACKSPACE  &mo 2  &kp ENTER
             >;
         };
 
@@ -51,7 +51,7 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB    &trans            &trans            &trans            &trans            &trans              &kp LEFT_ARROW    &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp NUMBER_0    &trans
+&kp TAB    &kp LA(S)         &trans            &trans            &trans            &trans              &kp LEFT_ARROW    &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp NUMBER_0    &trans
 &kp ESC    &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5        &kp NUMBER_6      &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9     &kp APOSTROPHE  &trans
 &kp LSHFT  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LA(NUMBER_6)  &trans        &trans          &trans           &trans          &trans
                                                &kp LCTRL         &mo 0             &kp SPACE           &kp ENTER         &mo 2         &kp RIGHT_ALT
@@ -67,10 +67,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB     &trans           &trans        &trans        &trans      &kp EQUAL         &kp CARET       &kp AMPS         &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp MINUS
-&kp ESCAPE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR  &kp PERCENT       &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT   &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &trans      &bt BT_CLR_ALL    &kp UNDER       &kp PLUS         &trans           &trans    &kp PIPE  &kp TILDE
-                                           &kp LCTRL     &mo 0       &kp SPACE         &kp BACKSPACE   &mo 6            &kp RALT
+&kp TAB     &trans           &kp MINUS    &kp TILDE  &kp CARET   &kp EQUAL      &kp PLUS        &kp AMPS        &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &trans
+&kp ESCAPE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT    &kp UNDERSCORE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp LSHFT   &trans           &trans       &trans     &trans      &trans         &trans          &trans          &trans           &kp BACKSLASH     &kp PIPE           &trans
+                                          &kp LCTRL  &mo 0       &kp SPACE      &kp BACKSPACE   &mo 6           &kp RALT
             >;
         };
 
