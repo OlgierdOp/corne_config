@@ -89,7 +89,7 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB     &trans           &kp KP_SUBTRACT  &kp TILDE  &kp CARET   &kp EQUAL      &kp PLUS        &kp AMPS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_MULTIPLY    &trans
+&kp TAB     &trans           &kp KP_SUBTRACT  &kp GRAVE  &kp CARET   &kp EQUAL      &kp PLUS        &kp AMPS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_MULTIPLY    &trans
 &kp ESCAPE  &kp EXCLAMATION  &kp AT_SIGN      &kp HASH   &kp DOLLAR  &kp PERCENT    &kp UNDERSCORE  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &trans
 &kp LSHFT   &trans           &trans           &trans     &trans      &trans         &trans          &trans          &trans                &kp BACKSLASH          &kp PIPE           &trans
                                               &kp LCTRL  &trans      &kp SPACE      &kp BACKSPACE   &trans          &kp ENTER
